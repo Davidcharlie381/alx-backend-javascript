@@ -26,6 +26,3 @@ export default class Currency {
     return (`${this._name} (${this._code})`);
   }
 }
-
-const dollar = new Currency('$', 'Dollars');
-console.log(dollar.displayFullCurrency());
